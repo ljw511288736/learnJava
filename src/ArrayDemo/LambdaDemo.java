@@ -2,7 +2,7 @@ package ArrayDemo;
 
 import java.util.Arrays;
 
-// Lambda表达式可以用来简化匿名内部类的书写
+//Lambda表达式可以用来简化匿名内部类的书写
 //Lambda表达式只能简化函数式接口的匿名内部类的写法
 public class LambdaDemo {
     public static void main(String[] args) {
