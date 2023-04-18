@@ -25,12 +25,12 @@ public class QuickSortDemo {
     }
 
     public static void quickSort(int[] arr, int left, int right) {
-        if(right < left){
+        if(right < left){//递归出口
             return;
         }
         int start = left;
         int end = right;
-        int baseNumber = arr[left];
+        int baseNumber = arr[left];//保证出口前走不到赋基准值的一步
         while (start != end) {
             while (arr[end] >= baseNumber && end > start) {
                 end--;
