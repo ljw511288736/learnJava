@@ -25,7 +25,7 @@ public class CollectionDemo02 {
         Iterator<String> it2 = Str.iterator();
         it2.hasNext();
         it2.next();
-        it2.remove();
+        it2.remove();//在遍历过程中删除元素，需要使用迭代器
         System.out.println(Str);
     }
 }
