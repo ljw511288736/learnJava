@@ -9,7 +9,7 @@ public class GenericsDemo01 {
         System.out.println(al1);
 
         ArrayList<Integer> al2 = new ArrayList<>();
-        ListUtil.addAll(al2, 1, 2, 3, 4);
+        ListUtil.addAll2(al2, 1, 2, 3, 4);
         System.out.println(al2);
     }
 }
