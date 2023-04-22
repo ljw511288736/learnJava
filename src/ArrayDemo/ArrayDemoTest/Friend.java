@@ -4,6 +4,7 @@ public class Friend {
     private String name;
     private int age;
     private double height;
+    
     public Friend(){}
     
     public Friend(String name, int age, double height) {
