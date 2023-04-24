@@ -9,8 +9,8 @@ public class SetDemo01 {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
 
-        boolean r1 = set.add("ljw");
-        boolean r2 = set.add("ljw");
+        //boolean r1 = set.add("ljw");
+        //boolean r2 = set.add("ljw");
         set.add("Skyrimlee");
         set.add("Skyrim1ee");
 

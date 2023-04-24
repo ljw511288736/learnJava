@@ -1,6 +1,6 @@
 package CollectionDemo.SetDemo;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private String name;
     private int age;
     public Student() {
@@ -50,6 +50,13 @@ public class Student {
         if (age != other.age)
             return false;
         return true;
+    }
+    @Override
+    public int compareTo(Student o) {
+        // TODO Auto-generated method stub
+        //指定排序的规则
+        //只看年龄，按照年龄的升序进行排序
+        return this.getAge() - o.getAge();
     }
 
     
