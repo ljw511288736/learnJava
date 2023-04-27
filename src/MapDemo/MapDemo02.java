@@ -20,17 +20,17 @@ public class MapDemo02 {
         // System.out.println(k);// 获取键
         // System.out.println(m.get(k));// 获取键对应的值
         // }
-
+        
         // map用BiConsumer，collection用Consumer
         // m.forEach(new BiConsumer<String, String>() {
         // @Override
-        // public void accept(String t, String u) {
-        // System.out.println(t + "=" + u);
+        // public void accept(String key, String value) {
+        // System.out.println(key + "=" + value);
         // }
         // });
 
         // map用lambda表达式简化遍历map所有键值对对象
-        m.forEach((t, u) -> System.out.println(t + "=" + u));
+        //m.forEach((key, value) -> System.out.println(key + "=" + value));
 
         // 通过一个方法获取所有的键值对对象， 返回一个Set集合中
         Set<Entry<String, String>> entrySet = m.entrySet();
